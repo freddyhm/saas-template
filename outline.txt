@@ -22,13 +22,75 @@ Block
 *Block-Elements
 ----------
 
-module
-	
-header	
-	
-footer
+header
+	header__hero
 
-social-list
+logo
+	logo--highlighted
+	logo__slogan
 
+steps-overview
+	steps-overview__main__img
+
+search
+	search__list
+	search__box
+		search__box__icon
 nav
+	nav__container (mobile)
+	nav__stack (mobile)
+	nav__list
+	nav__item
+		nav__item--selected
+		nav__link
+			nav__link__icon
+			nav__link__title
+
+module
+	module__header
+		module__title--dark
+		module__subtitle--dark
+		module__description--highlighted
+		module__description--light
+
+			Service
+				steps-overview__main__img
+				steps-overview__info
+					service__title
+					module__description *3
+
+			Team 
+				team__list
+					team-member
+						team-member__social-link
+						team-member__name
+						team-member__title
+
+			Feature
+				feature__list
+					feature__item
+						feature__description
+				feature__summary 	
+
+			Awards & As Seen On
+				award__list
+					award__item
+						award__link
+							award__title
+
+				as-seen-on__list
+					as-seen-on__item
+						as-seen-on__link
+footer
+	logo
+	nav
+	social-list
+		social-list__item
+			social-list__link
+				social-list__icon
+				social-list__title
+	module__description
+	footer__links
+	module__description--light
+
 
