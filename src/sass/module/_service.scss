@@ -6,7 +6,15 @@
 	display: none;
 }
 
+.steps-overview{
+	display: none;
+}
+
 .s-content--selected{
+	display: block;
+}
+
+.service__s-content__img{
 	display: block;
 }
 
@@ -16,11 +24,19 @@
 		display: none;
 	}
 
+	.steps-overview{
+		display: block;
+	}
+
 	.s-content{
 		display: block;
 	}
 
 	.service__btn-cta{
+		display: none;
+	}
+
+	.service__s-content__img{
 		display: none;
 	}
 }
