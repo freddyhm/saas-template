@@ -6,7 +6,7 @@ module.exports = function(grunt){
 		watch: {
 			src: {
 				files: ['src/**/*', 'index.html'],
-				tasks: ['includereplace', 'concat', 'copy'],
+				tasks: ['sass', 'includereplace', 'concat', 'copy'],
 				options: {
 					spawn: false
 				}

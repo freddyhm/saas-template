@@ -1,11 +1,52 @@
 /* -----------------------------------------------
+:: RESET
+--------------------------------------------- */
+/* ---------------------------------------------
+:: LAYOUT
+--------------------------------------------- */
+.wrapper {
+  width: 100%; }
+
+@media screen and (min-width: 780px) {
+  .wrapper {
+    width: 780px;
+    margin: 0 auto; } }
+/* -----------------------------------------------
 :: HEADER
 --------------------------------------------- */
 /* ----------
 :: Mobile
 ---------- */
+.header__hero {
+  background-color: red; }
+
+.header__content {
+  text-align: center; }
+
+.search__icon {
+  float: right; }
+
+.search__input {
+  display: none; }
+
 /* ----------
 :: Desktop
 ---------- */
+@media screen and (min-width: 650px) {
+  .header__content {
+    display: none; }
+
+  .search__input {
+    display: block; }
+
+  .header__d-hero {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 445px;
+    background-color: blue; }
+
+  .header__top {
+    height: 155px; } }
 
 /*# sourceMappingURL=styles.css.map */
