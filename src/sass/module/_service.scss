@@ -1,0 +1,26 @@
+/* ---------------------------------------------
+:: SERVICE
+--------------------------------------------- */
+
+.s-content{
+	display: none;
+}
+
+.s-content--selected{
+	display: block;
+}
+
+@media screen and (min-width: 650px){
+
+	.service__side-bar{
+		display: none;
+	}
+
+	.s-content{
+		display: block;
+	}
+
+	.service__btn-cta{
+		display: none;
+	}
+}

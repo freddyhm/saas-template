@@ -1,9 +1,17 @@
 /* -----------------------------------------------
 :: RESET
 --------------------------------------------- */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
 /* ---------------------------------------------
 :: LAYOUT
 --------------------------------------------- */
+* {
+  outline: 1px solid #F6A1A1; }
+
 .wrapper {
   width: 100%; }
 
@@ -11,6 +19,29 @@
   .wrapper {
     width: 780px;
     margin: 0 auto; } }
+/* ---------------------------------------------
+:: SUB CONTENT
+--------------------------------------------- */
+.s-content__img {
+  display: block;
+  margin: 0 auto; }
+
+/* ---------------------------------------------
+:: BUTTON
+--------------------------------------------- */
+.btn-cta {
+  display: block;
+  margin: 0 auto; }
+
+/* ---------------------------------------------
+:: MODULE
+--------------------------------------------- */
+/* ----------
+:: Desktop
+---------- */
+@media screen and (min-width: 650px) {
+  .main-content {
+    margin-top: 450px; } }
 /* -----------------------------------------------
 :: HEADER
 --------------------------------------------- */
@@ -48,5 +79,23 @@
 
   .header__top {
     height: 155px; } }
+/* ---------------------------------------------
+:: SERVICE
+--------------------------------------------- */
+.s-content {
+  display: none; }
+
+.s-content--selected {
+  display: block; }
+
+@media screen and (min-width: 650px) {
+  .service__side-bar {
+    display: none; }
+
+  .s-content {
+    display: block; }
+
+  .service__btn-cta {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
