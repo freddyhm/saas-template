@@ -1,0 +1,84 @@
+/* ---------------------------------------------
+:: TEAM
+--------------------------------------------- */
+
+.module__team{
+	position: relative;
+}
+
+.team__content{
+	text-align: center;
+}
+
+.team-nav{
+	width: 80%;
+	max-width: 300px;
+	height: 50px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.progress-indicator{
+	width: 30px;
+	margin: 0 auto;
+}
+
+.progress-indicator:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.progress-indicator__item{
+	float: left;
+}
+
+.team-member{
+	display: none;
+	width: 80%;
+	max-width: 300px;
+	clear: both;
+}
+
+.team-member--selected{
+	display: block;
+	margin: 0 auto;
+}
+
+.team-member__description{
+	display: none;
+}
+
+.nav-control{
+	position: absolute;
+ 	top: 50%;
+ 	cursor: pointer;
+}
+
+.team-member__nav-control{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.nav-control__next{
+	right: 10px;
+}
+
+/* ----------
+:: Desktop
+---------- */
+
+@media screen and (min-width: 650px){
+
+	.team-member{
+		display: block;
+	}
+
+	.team-member__description{
+		display: none;
+	}
+}

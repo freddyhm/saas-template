@@ -10,10 +10,6 @@
 	display: none;
 }
 
-.content__overview{
-	text-align: center;
-}
-
 /* ----------
 :: Desktop
 ---------- */
@@ -22,5 +18,9 @@
 
 	.module__overview{
 		display: block;
+	}
+
+	.overview__header{
+		text-align: center;
 	}
 }
