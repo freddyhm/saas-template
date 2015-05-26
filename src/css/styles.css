@@ -19,29 +19,6 @@ ul {
   .wrapper {
     width: 780px;
     margin: 0 auto; } }
-/* ---------------------------------------------
-:: SUB CONTENT
---------------------------------------------- */
-.s-content__img {
-  display: block;
-  margin: 0 auto; }
-
-/* ---------------------------------------------
-:: BUTTON
---------------------------------------------- */
-.btn-cta {
-  display: block;
-  margin: 0 auto; }
-
-/* ---------------------------------------------
-:: MODULE
---------------------------------------------- */
-/* ----------
-:: Desktop
----------- */
-@media screen and (min-width: 650px) {
-  .main-content {
-    margin-top: 450px; } }
 /* -----------------------------------------------
 :: HEADER
 --------------------------------------------- */
@@ -79,6 +56,35 @@ ul {
 
   .header__top {
     height: 155px; } }
+/* ---------------------------------------------
+:: SUB CONTENT
+--------------------------------------------- */
+.s-content__img {
+  display: block;
+  margin: 0 auto; }
+
+/* ---------------------------------------------
+:: BUTTON
+--------------------------------------------- */
+.btn-cta {
+  display: block;
+  margin: 0 auto; }
+
+/* ---------------------------------------------
+:: MODULE
+--------------------------------------------- */
+.module__title {
+  text-align: center; }
+
+.module__subtitle {
+  text-align: center; }
+
+/* ----------
+:: Desktop
+---------- */
+@media screen and (min-width: 650px) {
+  .main-content {
+    margin-top: 450px; } }
 /* ---------------------------------------------
 :: SERVICE
 --------------------------------------------- */
@@ -126,10 +132,7 @@ ul {
 ---------- */
 @media screen and (min-width: 650px) {
   .module__overview {
-    display: block; }
-
-  .overview__header {
-    text-align: center; } }
+    display: block; } }
 /* ---------------------------------------------
 :: TEAM
 --------------------------------------------- */
@@ -140,7 +143,6 @@ ul {
   text-align: center; }
 
 .team-nav {
-  width: 80%;
   max-width: 300px;
   height: 50px;
   margin: 0 auto;
@@ -159,8 +161,8 @@ ul {
   float: left; }
 
 .team-member {
+  float: none;
   display: none;
-  width: 80%;
   max-width: 300px;
   clear: both; }
 
@@ -192,9 +194,25 @@ ul {
 ---------- */
 @media screen and (min-width: 650px) {
   .team-member {
-    display: block; }
+    float: left;
+    display: block;
+    clear: none; }
 
-  .team-member__description {
+  .progress-indicator, .team-member__description, .team-member__nav-control {
     display: none; } }
+/* ---------------------------------------------
+:: AWARDS
+--------------------------------------------- */
+.awards__s-content {
+  display: block; }
+
+.module__awards {
+  height: 850px; }
+
+/* ---------------------------------------------
+:: FOOTER
+--------------------------------------------- */
+.footer__info {
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
