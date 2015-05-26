@@ -1,0 +1,71 @@
+/* -----------------------------------------------
+  :: NAV
+  --------------------------------------------- */
+
+/* ------------
+  :: Mobile
+  ---------- */
+
+.nav__primary{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+
+.nav__item{
+	display: inline-block;
+	height: 9.5em;
+  	line-height: 3.5em;
+}
+
+.nav__container{
+	clear: right;
+	height: 100px;
+	background-color: #fff;
+}
+
+.nav__container--visible{
+	display: block;
+}
+
+.nav__stack{
+	float: right;
+	margin-left: 73px;
+	cursor: pointer;
+}
+
+.nav__stack__container{
+	width: 3em;
+	height: 3em;
+}
+
+.nav__stack__icon{
+	fill: #fff;
+}
+
+
+.nav__item--selected{
+ 	display: inline-block;
+ 	border-top: 2px solid #fff;
+}
+
+/* -----------
+  :: Desktop
+  ---------- */
+
+@media screen and (min-width: 650px){
+
+	.nav__stack{
+		display: none;
+	}
+
+	.nav__primary{
+		position: relative;
+	}
+
+	.nav__container{
+		display: block;
+		background-color: transparent;
+	}
+}

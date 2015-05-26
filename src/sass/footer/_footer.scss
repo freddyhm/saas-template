@@ -5,3 +5,33 @@
 .footer__info{
 	text-align: center;
 }
+
+.d-nav-links{
+	display: none;
+}
+
+.d-col-6{
+	float: none;
+}
+
+/* ----------
+:: Desktop
+---------- */
+
+@media screen and (min-width: 650px){
+	.footer{
+		height: 460px;
+	}
+
+	.footer__title{
+		display: none;
+	}
+
+	.footer__info{
+		text-align: left;
+	}
+
+	.d-col-6{
+		float: left;
+	}
+}
