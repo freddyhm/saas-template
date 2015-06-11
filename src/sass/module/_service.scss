@@ -18,6 +18,22 @@
 	display: block;
 }
 
+.service__side-bar{
+	display: none;
+}
+
+
+@media screen and (min-width: 300px){
+	.s-content__group{
+		float: right;
+	}
+
+	.service__side-bar{
+		display: block;
+		float: left;
+	}
+}
+
 /* ----------
 :: Desktop
 ---------- */
