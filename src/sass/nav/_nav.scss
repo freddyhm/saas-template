@@ -50,6 +50,33 @@
  	border-top: 2px solid #fff;
 }
 
+/* skip link for accessibility */
+
+.link__skip-all a{
+	
+	position: absolute;
+	top: -40px;
+	left: 0px;
+	padding: 6px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-bottom-right-radius: 8px;
+	background: transparent;
+	color: white;
+	-webkit-transition: top 1s ease-out, background 1s linear;
+    transition: top 1s ease-out, background 1s linear;
+    z-index: 100;
+}
+
+.link__skip-all a:focus {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: #BF1722;
+	-webkit-transition: top .1s ease-in, background .5s linear;
+    transition: top .1s ease-in, background .5s linear;
+}
+
 /* -----------
   :: Desktop
   ---------- */
