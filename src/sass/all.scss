@@ -1,7 +1,6 @@
-@import 'base/_-base-dir.scss';
-@import 'header/_header.scss';
-@import 'nav/_nav.scss';
-@import 's-content/_s-content.scss';
-@import 'button/_button.scss';
-@import 'module/_-module-dir.scss';
-@import 'footer/_footer.scss';
+
+@import 'base/_-base-dir';
+@import 'block/_-block-dir';
+@import 'module/_-module-dir';
+@import 'module/_-module-dir';
+@import 'vendor/_-vendor-dir';

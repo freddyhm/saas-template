@@ -1,0 +1,24 @@
+
+/* -----------------------------------------------
+:: LOGO
+-------------------------------------------------- */
+
+.logo__img{
+	float: left;
+}
+
+.logo__title{
+	font-family: $main-font, sans-serif;
+	font-size: $logo-font-size;	
+}
+
+.logo__title--dark{
+	color: $logo-color;
+}
+
+.logo__slogan{
+	font-family: $logo-slogan-font, sans-serif;
+	font-size: $logo-slogan-font-size;
+	font-style: italic;
+}
+

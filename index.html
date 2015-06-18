@@ -9,6 +9,8 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -17,16 +19,14 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="wrapper">
-            @@include('src/includes/header.html')
-            <main class="main-content">
-                @@include('src/includes/service.html')
-                @@include('src/includes/overview.html')
-                @@include('src/includes/team.html')
-                @@include('src/includes/awards.html')
-            </main>
-            @@include('src/includes/footer.html')
-        </div>
+        @@include('src/includes/header.html')
+        <main class="main-content">
+            @@include('src/includes/service.html')
+            @@include('src/includes/overview.html')
+            @@include('src/includes/team.html')
+            @@include('src/includes/awards.html')
+        </main>
+        @@include('src/includes/footer.html')
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/concat.js"></script>
